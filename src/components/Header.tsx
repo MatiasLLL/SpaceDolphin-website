@@ -2,7 +2,7 @@ function Header() {
     return (
         <header className="z-50 flex h-1/5 justify-between items-center pt-[0.85rem]">
             <div className="flex flex-col items-center justify-center overflow-hidden rounded-md mt-5 sm:-ml-12 w-2/5 sm:w-fit">
-                <h1 className="sm:text-3xl text-[1.2rem] leading-[1.5rem] sm:font-bold font-thin sm:tracking-wide font-inter">
+                <h1 className="sm:text-3xl text-[1.2rem] leading-[1.5rem] sm:font-semibold font-thin sm:tracking-wide font-inter">
                     Space Dolphin
                 </h1>
                 <div className="w-[22rem] h-5 relative">
@@ -17,7 +17,7 @@ function Header() {
                 <ul className="flex sm:space-x-9 space-x-3 text-sm sm:text-base cursor-pointer relative">
                     <li>
                         <a
-                            href="/"
+                            href="/#/"
                             className="hover:text-new/90 relative group/btn"
                         >
                             Home
@@ -26,7 +26,7 @@ function Header() {
                     </li>
                     <li className="group relative">
                         <a
-                            href="/nfts"
+                            href="/#/nfts"
                             className="hover:text-[#0f51c1] text-new/80 relative group/btn"
                         >
                             NFTs
