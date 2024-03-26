@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 function Header() {
     return (
         <header className="z-50 flex h-1/5 justify-between items-center pt-[0.85rem]">
@@ -16,34 +18,55 @@ function Header() {
             <nav>
                 <ul className="flex sm:space-x-9 space-x-3 text-sm sm:text-base cursor-pointer relative">
                     <li>
-                        <a
+                        <NavLink
+                            to="/"
+                            className="hover:text-new/90 relative group/btn"
+                        >
+                            Home
+                            <BottomGradient />
+                        </NavLink>
+                        {/* <a
                             href="/#/"
                             className="hover:text-new/90 relative group/btn"
                         >
                             Home
                             <BottomGradient />
-                        </a>
+                        </a> */}
                     </li>
                     <li className="group relative">
-                        <a
+                        <NavLink
+                            to="/nfts"
+                            className="hover:text-[#0f51c1] text-new/80 relative group/btn"
+                        >
+                            NFTs
+                            <BottomGradient />
+                        </NavLink>
+                        {/* <a
                             href="/#/nfts"
                             className="hover:text-[#0f51c1] text-new/80 relative group/btn"
                         >
                             NFTs
                             <BottomGradient />
-                        </a>
+                        </a> */}
                         <span className="hidden group-hover:block absolute whitespace-nowrap px-2 py-[0.4rem] bg-space-light-blue/85 text-space-stars text-xs rounded-md shadow-md -translate-y-[2.7rem] left-[2.3rem] transform -translate-x-2  overflow-hidden">
                             Coming soon!
                         </span>
                     </li>
                     <li>
-                        <a
+                        <NavLink
+                            to="#contact"
+                            className="hover:text-new/90 relative group/btn"
+                        >
+                            Contact
+                            <BottomGradient />
+                        </NavLink>
+                        {/* <a
                             href="#contact"
                             className="hover:text-new/90 relative group/btn"
                         >
                             Contact
                             <BottomGradient />
-                        </a>
+                        </a> */}
                     </li>
                 </ul>
             </nav>
