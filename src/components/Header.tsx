@@ -53,20 +53,13 @@ function Header() {
                         </span>
                     </li>
                     <li>
-                        <NavLink
-                            to="#contact"
-                            className="hover:text-new/90 relative group/btn"
-                        >
-                            Contact
-                            <BottomGradient />
-                        </NavLink>
-                        {/* <a
+                        <a
                             href="#contact"
                             className="hover:text-new/90 relative group/btn"
                         >
                             Contact
                             <BottomGradient />
-                        </a> */}
+                        </a>
                     </li>
                 </ul>
             </nav>
