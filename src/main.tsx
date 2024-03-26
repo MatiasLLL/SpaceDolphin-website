@@ -17,6 +17,7 @@ root.render(
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/nfts" element={<NTFs />} />
+                <Route path="/*" element={<Home />} />
                 <Route path="*" element={<Home />} />
             </Routes>
         </Router>
