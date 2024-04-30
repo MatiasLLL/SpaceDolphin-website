@@ -24,7 +24,7 @@ function Footer() {
                     soar into the cosmos.
                 </p>
                 <a
-                    href=""
+                    href="https://twitter.com/_SpaceDolphin_"
                     className="flex items-center justify-left sm:pl-[4.65rem] pl-[3.65rem] sm:w-1/3 w-[30%] sm:text-2xl text-[1.6rem]"
                 >
                     <FaXTwitter />
