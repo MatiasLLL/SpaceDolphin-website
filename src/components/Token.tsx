@@ -41,7 +41,7 @@ function Token() {
             <div className="lg:h-96 h-[40rem] sm:ml-8 sm:grid sm:grid-cols-10 items-center sm:justify-left sm:relative md:-top-10 sm:-top-20">
                 <LinkUniswap
                     text="Buy on Uniswap"
-                    anchor="https://app.uniswap.org/#/swap?outputCurrency=0x"
+                    anchor="https://app.uniswap.org/swap?outputCurrency=0x8c902412739910407158007Af97Ba39f002A6Fa7&chain=base"
                 />
                 <article className="md:ml-16 sm:mx-0 mx-6 col-span-5 text-center md:leading-10 leading-9">
                     <h2 className="sm:text-2xl text-[1.4rem] font-bold text-center sm:leading-9 leading-8 sm:pt-0 pt-4">
@@ -63,9 +63,9 @@ function Token() {
                     </p>
                     <a
                         className="underline underline-offset-3 hover:text-new/85"
-                        href="https://polygonscan.com/address/0x5C9bC954F6ed9500A4851c2e3A9b286bF8918c2A"
+                        href="https://basescan.org/address/0x8c902412739910407158007af97ba39f002a6fa7"
                     >
-                        View on PolygonScan
+                        View on BaseScan
                     </a>
                 </article>
             </div>

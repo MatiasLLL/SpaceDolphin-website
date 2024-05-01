@@ -12,7 +12,7 @@ function Footer() {
             </div>
             <div className="flex items-center justify-between">
                 <div className="flex flex-col text-start justify-start sm:w-1/3 w-[30%] sm:leading-[1.65rem] leading-5 pl-1">
-                    <a href="mailto:space@dolphin.xyz">space@dolphin.xyz</a>
+                    <a href="mailto:space@dolphin.xyz">info@spacedolphin.xyz</a>
                     <p>
                         Contract address:
                         <br />
